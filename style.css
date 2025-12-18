@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* LOGIN */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 320px;
+    backdrop-filter: blur(10px);
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-box button {
+    background: #00c6ff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.3);
+}
+
+.logout-btn {
+    color: #00c6ff;
+    text-decoration: none;
+}
+
+/* CONTENT */
+.hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    margin-top: 20px;
+    color: #00c6ff;
+}
+
+.positive li {
+    color: #7CFF7C;
+}
+
+.negative li {
+    color: #FF7C7C;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.4);
+}
+
+/* LOGOUT */
+.logout-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logout-box {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
